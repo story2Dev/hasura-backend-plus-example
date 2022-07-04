@@ -64,6 +64,10 @@ if (STORAGE_ACTIVE) {
   app.use('/storage', storage);
 }
 
+// upload
+const upload = require('./auth/upload');
+app.use('/upload', upload);
+
 app.use('/healthz', (req, res) => {
   res.send('OK');
 });
