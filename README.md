@@ -408,3 +408,18 @@ You can see other examples [here](examples) in examples folder.
 # nhost-js-sdk
 
 Use [nhost-js-sdk](https://www.npmjs.com/package/nhost-js-sdk) for client side interaction with Hasura Backend Plus.
+
+
+## docker nodejs
+
+```base
+
+
+COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose build
+
+docker-compose up
+
+```
+
+
+https://blog.logrocket.com/node-js-docker-improve-dx-docker-compose/
